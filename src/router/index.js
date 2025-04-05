@@ -31,6 +31,4 @@ const router = createRouter({
   ],
 })
 
-// Remonter l'info au parent pour supprimer l'élément (avec un emit)
-// Dans le parent : écouter l'event et supprimer l'élément de la liste
 export default router
