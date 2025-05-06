@@ -3,6 +3,19 @@
 import CheckoutElementCard from '../components/CheckoutElementCard.vue'
 import { computed, ref } from 'vue'
 
+
+// const { products } = useCheckoutStore()
+//
+// let totalPrice = computed(() => {
+//   // let result = 0
+//   // for (let i = 0; i < productsInCheckout.value.length; i++) {
+//   //   result += productsInCheckout.value[i].price * productsInCheckout.value[i].quantity
+//   // }
+//   //
+//   // return result
+//   return 0;
+// })
+
 const productsInCheckout = ref([
   {
     id: 1,
