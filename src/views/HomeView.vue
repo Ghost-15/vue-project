@@ -6,12 +6,12 @@ import { ref, onMounted } from 'vue'
 import { supabase } from '../lib/supabaseClient'
 
 const products = ref([])
-async function getInstruments() {
+async function getProducts() {
   const { data } = await supabase.from('products').select()
   products.value = data
 }
 onMounted(() => {
-  getInstruments()
+  getProducts()
 })
 
 </script>
